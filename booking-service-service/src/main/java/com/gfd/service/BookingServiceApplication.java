@@ -1,12 +1,14 @@
-package com.gfd.bookingservice;
+package com.gfd.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class }, scanBasePackages = "com.gfd")
+@EntityScan ("com.gfd")
 public class BookingServiceApplication {
 
 	public static void main(String[] args) {

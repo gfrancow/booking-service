@@ -1,4 +1,4 @@
-package com.gfd.bookingservice.appointment;
+package com.gfd.model.bookingservice.appointment;
 
 
 

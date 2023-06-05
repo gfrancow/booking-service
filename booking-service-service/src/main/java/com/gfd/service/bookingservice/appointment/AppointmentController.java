@@ -1,5 +1,6 @@
-package com.gfd.bookingservice.appointment;
+package com.gfd.service.bookingservice.appointment;
 
+import com.gfd.model.bookingservice.appointment.Appointment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
